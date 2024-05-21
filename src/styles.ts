@@ -28,6 +28,10 @@ export const Title = styled.Text`
 
 export const WrapperInput = styled.View``;
 
+export const WrapperInputQuantity = styled.View`
+  width: 60%;
+`;
+
 export const Text = styled.Text`
   font-size: 12px;
   color: #afabb6;
@@ -45,4 +49,32 @@ export const TextInput = styled.TextInput`
   border-radius: 6px;
   padding: 8px 16px;
   color: #ffff;
+`;
+
+export const WrapperBottomHeader = styled.View`
+  margin-top: 10px;
+
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
+export const WrapperButton = styled.View`
+  height: 40px;
+  width: 120px;
+  margin-top: auto;
+`;
+
+export const Button = styled.Pressable`
+  height: 40px;
+  background-color: #7450ac;
+
+  border-radius: 6px;
+`;
+
+export const ButtonText = styled.Text`
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffff;
+  text-align: center;
+  line-height: 40px;
 `;

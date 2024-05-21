@@ -1,12 +1,17 @@
 import React from 'react';
 import {
+  Button,
+  ButtonText,
   Container,
   Header,
   Image,
   Text,
   TextInput,
   Title,
+  WrapperBottomHeader,
+  WrapperButton,
   WrapperInput,
+  WrapperInputQuantity,
 } from './styles';
 
 function App(): React.JSX.Element {
@@ -22,6 +27,20 @@ function App(): React.JSX.Element {
 
           <TextInput />
         </WrapperInput>
+
+        <WrapperBottomHeader>
+          <WrapperInputQuantity>
+            <Text>Quantidade</Text>
+
+            <TextInput />
+          </WrapperInputQuantity>
+
+          <WrapperButton>
+            <Button>
+              <ButtonText>Adicionar</ButtonText>
+            </Button>
+          </WrapperButton>
+        </WrapperBottomHeader>
       </Header>
     </Container>
   );
