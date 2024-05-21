@@ -1,5 +1,13 @@
 import React from 'react';
-import {Container, Header, Image, Title} from './styles';
+import {
+  Container,
+  Header,
+  Image,
+  Text,
+  TextInput,
+  Title,
+  WrapperInput,
+} from './styles';
 
 function App(): React.JSX.Element {
   return (
@@ -8,6 +16,12 @@ function App(): React.JSX.Element {
 
       <Header>
         <Title>Lista de Compras</Title>
+
+        <WrapperInput>
+          <Text>Item</Text>
+
+          <TextInput />
+        </WrapperInput>
       </Header>
     </Container>
   );
